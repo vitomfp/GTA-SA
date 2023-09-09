@@ -94,7 +94,8 @@ body{
     
     .section-2{
     background: black;
-    height: 100vH;
+    height: 100vh;
+    background-size: 120vw;
     }
     
     .animation{
