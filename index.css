@@ -65,7 +65,7 @@ body{
     
 }
 
-@media screen and (min-width:500px){
+@media screen and (max-width:600px){
     body{
         background-image:url('./99850dbce0a174c815e3cf0060197396\ \(1\).jpg');
         background-size: cover;
