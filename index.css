@@ -1,0 +1,119 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:url('https://i.pinimg.com/originals/a5/a3/b8/a5a3b8b05e8a1ea92813607761564299.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw;    
+}
+
+.section-1{ 
+    height: 100vh;
+}
+
+.title{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30pc;
+    padding: 2pc 0;
+    
+}
+
+.title img{
+    height: 23pc;
+   
+}
+
+.text{
+    font-family: 'Kanit', sans-serif;
+    width: 30pc;
+    padding: 0 11pc ;
+    font-size: 25px;
+}
+
+.section-2{
+    background: black;
+    height: 100vh;
+}
+
+.animation {
+    
+    display: flex;
+    align-items: center;
+    padding: 16pc 0 0 0;
+   
+    
+}
+
+.animation img{
+    height: 23pc;
+   
+}
+
+.text-2{
+    font-family: 'Kanit', sans-serif;
+    width: 40pc;
+    font-size: 25px;
+    color: white;
+    padding: 0 0 5pc 0;
+    
+}
+
+@media screen and (max-width:500px){
+    body{
+        background-image:url('./99850dbce0a174c815e3cf0060197396\ \(1\).jpg');
+        background-size: 100vw;
+        
+       
+    }
+    
+    .title{
+        display: flex;
+        align-items: center;
+        margin-left: 10pc;
+        
+    }
+    
+    .title img{
+        height: 17pc;
+    }
+    
+    .text{
+    font-family: 'Kanit', sans-serif;
+    width: 18pc;
+    font-size: 25px;
+    padding: 3pc 0 0 30px;
+    color: white;
+    }
+    
+    .section-2{
+    background: black;
+    height: 100vH;
+    }
+    
+    .animation{
+    display: flex;
+    flex-direction: column;
+    padding: 7pc 0 0 0;
+    
+    }
+    
+    .animation img{
+        height: 13pc;
+        content: url('./GTA-Characters-PNG-Clipart.png');
+    }
+    
+    .text-2{
+    font-family: 'Kanit', sans-serif;
+    width: 18pc;
+    font-size: 18px;
+    color: white;
+    padding: 20px 0 0 0;
+   }
+}
