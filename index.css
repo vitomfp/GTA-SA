@@ -3,6 +3,8 @@
 *{
     padding: 0;
     margin: 0;
+ 
+    user-select: none;
 }
 
 body{
@@ -11,7 +13,7 @@ body{
     background-size: 100vw;    
 }
 
-.section-1{ 
+.section-1 { 
     height: 100vh;
 }
 
@@ -37,10 +39,12 @@ body{
     font-size: 25px;
 }
 
-.section-2{
+.section-2, .section-3{
     background: black;
     height: 100vh;
 }
+
+
 
 .animation {
     
@@ -48,7 +52,7 @@ body{
     align-items: center;
     padding: 16pc 0 0 0;
    
-    
+   
 }
 
 .animation img{
@@ -65,10 +69,32 @@ body{
     
 }
 
-@media screen and (max-width:600px){
+.container-slider{
+    padding: 3pc;
+   
+    border: 1px solid red;
+    width: 90%;
+    overflow-x: scroll;
+}
+
+.slider{
+    display: flex;
+    gap: 1.5pc;
+}
+.slider img{
+    height: 15pc;
+   transition: transform .2s;
+}
+
+.slider img:hover{
+   transform: scale(1.1);
+   
+}
+
+@media screen and (max-width:400px){
     body{
         background-image:url('./99850dbce0a174c815e3cf0060197396\ \(1\).jpg');
-        background-size: 120vw;
+        background-size: 100vw;
         
        
     }
@@ -94,8 +120,7 @@ body{
     
     .section-2{
     background: black;
-    
-    background-size: 120vw;
+    height: 100vH;
     }
     
     .animation{
@@ -117,4 +142,4 @@ body{
     color: white;
     padding: 20px 0 0 0;
    }
-    }
+}
