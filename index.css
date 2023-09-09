@@ -65,10 +65,10 @@ body{
     
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     body{
         background-image:url('./99850dbce0a174c815e3cf0060197396\ \(1\).jpg');
-        background-size: cover;
+        background-size: 120vw;
         
        
     }
@@ -116,4 +116,4 @@ body{
     color: white;
     padding: 20px 0 0 0;
    }
-}
+    }
