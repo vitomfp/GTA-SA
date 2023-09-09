@@ -39,14 +39,17 @@ body{
     font-size: 25px;
 }
 
-.section-2, .section-3{
+.section-2{
     background: black;
     height: 100vh;
     overflow-x: hidden;
 }
 
-
-
+.section-3{
+    background: black;
+    height: 100vh;
+ 
+}
 .animation {
     
     display: flex;
