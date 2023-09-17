@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2? family= Black+Ops+One & family= Space+Grotesk & display=swap');
 
 *{
     padding: 0;
@@ -11,10 +11,50 @@ body{
     background-image:url('https://i.pinimg.com/originals/a5/a3/b8/a5a3b8b05e8a1ea92813607761564299.jpg');
     background-repeat: no-repeat;
     background-size: 100vw;    
+    
+}
+.logo{
+    max-width: 4rem;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 1pc 1pc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+
+nav  {
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 0 2pc;
+    
 }
 
+ul{
+    list-style: none;
+   display: flex;
+   gap: 1pc;
+   cursor: pointer;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+.titulo span{
+    color: yellow;
+}
+
+.abrir, .cerrar{
+    display: none;
+    
+}
 .section-1 { 
     height: 100vh;
+    
 }
 
 .title{
@@ -114,14 +154,50 @@ body{
     
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     body{
-        background-image:url('./99850dbce0a174c815e3cf0060197396\ \(1\).jpg');
+        background-image:url('./99850dbce0a174c815e3cf0060197396\ \(1\)\ \(1\).jpg');
         background-size: 100vw;
-        
+       
        
     }
+    .abrir{
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
     
+    .cerrar{
+        display: block;
+  
+        background-color: transparent;
+        border: none;
+    }
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+         background-color: black;
+        padding: 2rem;
+        bottom: 0;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    ul{
+        flex-direction: column;
+        align-items: end;
+       
+    }
     .title{
         display: flex;
         align-items: center;
@@ -130,18 +206,20 @@ body{
     }
     
     .title img{
-        height: 17pc;
+        height: 15pc;
     }
     
     .text{
     font-family: 'Kanit', sans-serif;
     width: 18pc;
-    font-size: 25px;
+    font-size: 20px;
     padding: 3pc 0 0 30px;
     color: white;
     }
-    
-    .section-2{
+    .section-1{
+       height: 87vh;
+    }
+    .section-2, .section-3, .section-4{
     background: black;
     height: 100vH;
     }
@@ -164,5 +242,23 @@ body{
     font-size: 18px;
     color: white;
     padding: 20px 0 0 0;
+   }
+   
+   .container-slider{
+        padding: 2pc 0;
+   }
+   .slider img{
+    width: 75%;
+   }
+   .text-3{
+    padding: 6pc 2pc;
+    font-size: 15px;
+    
+   }
+
+   .section-4 video{
+    width: 80%;
+    display: flex;
+    padding: 17pc 0 0 2pc;
    }
 }
