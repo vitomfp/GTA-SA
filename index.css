@@ -169,7 +169,7 @@ ul a{
     .Sec1 video{
         display: block;
         position: absolute;
-        background-size: 80%;
+        background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
         height: 100vh;
