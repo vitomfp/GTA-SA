@@ -13,6 +13,10 @@ body{
     background-size: 100vw;    
     
 }
+
+.Sec1 video{
+    display: none;
+}
 .logo{
     max-width: 4rem;
 }
@@ -63,12 +67,12 @@ ul a{
     flex-direction: column;
     align-items: center;
     margin-right: 30pc;
-    padding: 3pc 0;
+    padding: 1pc 0;
     
 }
 
 .title img{
-    height: 23pc;
+    height: 24pc;
    
 }
 
@@ -151,15 +155,25 @@ ul a{
 
 .section-4 video{
     padding: 2pc 20pc;
-    
+    display: block;
 }
 
 @media screen and (max-width:500px){
     body{
-        background-image:url('./99850dbce0a174c815e3cf0060197396\ \(1\)\ \(1\).jpg');
+        background: none;
         background-size: 100vw;
+       box-sizing: border-box;
        
-       
+    }
+
+    .Sec1 video{
+        display: block;
+        position: absolute;
+        background-size: 80%;
+        background-position: top;
+        background-repeat: no-repeat;
+        height: 100vh;
+        z-index: -1;
     }
     .abrir{
         display: block;
@@ -218,6 +232,7 @@ ul a{
     }
     .section-1{
        height: 87vh;
+       
     }
     .section-2, .section-3, .section-4{
     background: black;
@@ -259,6 +274,7 @@ ul a{
    .section-4 video{
     width: 80%;
     display: flex;
-    padding: 17pc 0 0 2pc;
+    padding: 2pc 0 0 2pc;
+    display: block;
    }
 }
