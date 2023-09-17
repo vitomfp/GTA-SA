@@ -169,11 +169,13 @@ ul a{
     .Sec1 video{
         display: block;
         position: absolute;
-        background-size: 70%;
+        background-size: 80%;
         background-position: top;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 82vh;
         z-index: -1;
+        width: 26pc;
+        right: 2px;
     }
     .abrir{
         display: block;
@@ -234,9 +236,17 @@ ul a{
        height: 87vh;
        
     }
-    .section-2, .section-3, .section-4{
+    .section-2{
+        background: black;
+        height: 100vh;
+        position: relative;
+        top: -44px;
+    }
+     .section-3, .section-4{
     background: black;
-    height: 100vH;
+    height: 100vh;
+    position: relative;
+    top: -47px;
     }
     
     .animation{
